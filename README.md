@@ -8,7 +8,7 @@ The landing page is fully responsive and looks great on all devices, from deskto
 
 You can view a live preview of the landing page at the following link:
 
-<!-- [https://your-username.github.io/jobless-landing-page/](https://your-username.github.io/jobless-landing-page/) -->
+[https://ahmadrzq.github.io/Jobless-Landing-Page/](https://ahmadrzq.github.io/Jobless-Landing-Page/)
 
 ## Features
 
