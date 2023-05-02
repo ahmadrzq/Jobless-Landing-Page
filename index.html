@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jobless</title>
+    <!-- link CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="container flex-sb">
+        <div class="logo .flex-sb">
+          <h1><a href="#">Jobless</a></h1>
+        </div>
+        <ul class="menu flex-sb">
+          <li><a href="#">Home</a></li>
+          <li><a href="#job">Job</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#login">Login</a></li>
+        </ul>
+        <div class="sign-up flex-sb">
+          <button>Sign Up</button>
+        </div>
+        <div class="bar">
+          <hr />
+          <hr />
+          <hr />
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+        <section class="hero">
+          <img src="assets/job-hero.jpg" alt="" />
+          <div class="overlay">
+            <div class="wrapper">
+              <h1>Find a Job Easily</h1>
+              <p>Connecting you to your dream job, one click at a time.</p>
+              <form class="form">
+                <input type="text" />
+                <button>search</button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <section class="job" id="job">
+          <h1 class="title-section">Top Jobs</h1>
+          <div class="cards">
+            <div class="card-item">
+              <div class="card-wrapper">
+                <div class="head">
+                  <img src="assets/facebook.svg" alt="" class="logo" />
+                  <div class="jobs">
+                    <h1 class="job-name">Front-End Developer</h1>
+                    <h2 class="office">Facebook</h2>
+                  </div>
+                </div>
+                <p class="content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Neque, consequuntur?.
+                </p>
+                <div class="extras">
+                  <h2 class="tool">React</h2>
+                  <h2 class="salary">$30000-$60000</h2>
+                </div>
+              </div>
+            </div>
+            <div class="card-item">
+              <div class="wrapper">
+                <div class="head">
+                  <img src="assets/tokopedia.svg" alt="" class="logo" />
+                  <div class="jobs">
+                    <h1 class="job-name">Back-End Developer</h1>
+                    <h2 class="office">Tokopedia</h2>
+                  </div>
+                </div>
+                <p class="content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Neque, consequuntur?.
+                </p>
+                <div class="extras">
+                  <h2 class="tool">Golang</h2>
+                  <h2 class="salary">$50000-$90000</h2>
+                </div>
+              </div>
+            </div>
+            <div class="card-item">
+              <div class="wrapper">
+                <div class="head">
+                  <img src="assets/shopee.svg" alt="" class="logo" />
+                  <div class="jobs">
+                    <h1 class="job-name">Full-Stack Developer</h1>
+                    <h2 class="office">Shopee</h2>
+                  </div>
+                </div>
+                <p class="content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Neque, consequuntur?.
+                </p>
+                <div class="extras">
+                  <h2 class="tool">PHP</h2>
+                  <h2 class="salary">$70000-$110000</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about" id="about">
+          <h1 class="title-section">About Us</h1>
+          <div class="about-content">
+            <p class="about-content-p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+              culpa tempora aut nemo sequi expedita odio est mollitia soluta?
+              Magni aspernatur totam soluta dignissimos, rem reiciendis
+              voluptatibus adipisci atque. Molestiae, nihil iste! Similique quod
+              commodi neque odio exercitationem, atque assumenda corporis magni.
+              Iusto, magnam dolore harum inventore aliquid ipsam praesentium?
+            </p>
+          </div>
+        </section>
+        <section class="contact" id="contact">
+          <h1 class="title-section">Contact Us</h1>
+          <div class="contact-content">
+            <div class="social">
+              <h1 class="social-title">Contact Information</h1>
+              <p class="address">
+                <i class="fas fa-location-dot"></i> Jl. Sudirman No. 123,
+                Jakarta 10110
+              </p>
+              <p class="phone"><i class="fas fa-phone"></i> +622112345678</p>
+              <p class="email">
+                <i class="fas fa-envelope"></i> jobless@gmail.com
+              </p>
+              <div class="link">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram-square"></i>
+              </div>
+            </div>
+            <form action="" class="contact-form">
+              <h1 class="form-title">Free consultation about job</h1>
+              <div class="form-group">
+                <input type="text" placeholder="Name" name="name" />
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Email" name="email" />
+              </div>
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  id=""
+                  cols=""
+                  rows="10"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div class="form-submit">
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <h1 class="footer-text">© 2023 Jobless. All rights reserved.</h1>
+      </div>
+    </footer>
+    <section>
+      <div class="up">
+        <a href="#" class="up-text"
+          ><i class="fas fa-arrow-alt-circle-up"></i
+        ></a>
+      </div>
+    </section>
+  </body>
+</html>
